@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url(bgimage.jpg);
+    width:100%;
+    height:90vh;
+    background-position: center;
+    background-size: cover;
+}
+.image{
+    
+    width:40%;
+    height: 90%;
+    border-radius: 20px;
+    margin-top :10px;
+    float: left;
+    background: url(mp\ photo.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left:20px;
+}
+.profile{
+    
+    width: 700px;
+    height:100%;
+    float: center;
+    position:absolute;
+    margin-left: 625px;
+}
+
+.bio{
+    
+    width: 450px;
+    height: 47%;
+    float: center;
+    position: absolute;
+    margin-left: 150px;
+    margin-top :100px;
+
+}
+.bio h1{
+    color: orange;
+    font-size: 30px;
+    font-family: Arial;
+    margin-top: 17%;
+    margin-bottom: 10px;
+    
+}
+.bio h2{
+    margin-top: -10px;
+    margin-left: 8px;
+    margin-bottom:10px;
+}
+.bio p{
+    color: white;
+}
+.profile button{
+     color:white;
+    margin-top: 430px;
+    margin-left:170px;
+    font-family: Cambria;
+    font-size: 18px;
+    border: 2px solid orange;
+    background:black;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: none;
+     padding-left: 10px;
+     width: 200px;
+     height: 40px;
+     cursor: pointer;
+     text-align:center;
+}
+.nav{
+    width:100px;
+    height:85vh;
+cursor:pointer;
+    float:right;
+
+}
+.fa-solid{
+    color:white;
+    margin-top:50px;
+    margin-left:40px;
+    box-shadow: 0 0 20px 10px rgba(103, 102, 102, 0.497);
+    border-radius:50%;
+    
+
+}
+.fa-user{
+    color:white;
+    
+
+}
+
+.fa-toolbox{
+    color:white;
+}
+.fa-envelope-open{
+    color:white;
+}
+.fa-comments{
+    color:white;
+}
+.fa-lightbulb{
+    color:white;
+}
+
+.fa-circle-arrow-right{
+    color:white;
+    font-size:40px;
+    margin-left:1px;
+    margin-top:25px;
+}
+.nav:hover{
+    color:orange;
+}
+.profile .orange-color{
+    color: #ff7200;
+}
+.profile .cn{
+    width: 240px;
+    height: 50px;
+    border: 2px solid #ff7200;
+    border-radius: 20px;
+    background: black;
+    margin-top:450;
+    
+color: white;
+}
+
